@@ -9,9 +9,9 @@ afterEvaluate {
         publications {
             debug(MavenPublication) {
                 groupId "com.github.mitchtabian"
-                artifactId "test-library2"
-                version "1.0.0"
-                artifact "$buildDir/outputs/aar/test-library2-debug.aar"
+                artifactId "app"
+                version "1.0.1"
+                artifact "$buildDir/outputs/aar/app-debug.aar"
 
                 // To include project dependencies
                 pom.withXml {
