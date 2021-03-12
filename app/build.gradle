@@ -3,14 +3,13 @@ plugins {
     id 'kotlin-android'
     id 'maven-publish'
 }
-//group = "com.github.mitchtabian"
 afterEvaluate {
     publishing {
         publications {
             debug(MavenPublication) {
                 groupId "com.github.mitchtabian"
                 artifactId "app"
-                version "1.0.1"
+                version "1.4"
                 artifact "$buildDir/outputs/aar/app-debug.aar"
 
                 // To include project dependencies
