@@ -24,16 +24,6 @@ afterEvaluate {
                 }
             }
         }
-//        repositories {
-//            maven {
-//                name = "GitHubPackages"
-//                url = uri("https://maven.pkg.github.com/mitchtabian/TestLibrary")
-//                credentials {
-//                    username = GIT_USERNAME
-//                    password = GIT_TOKEN
-//                }
-//            }
-//        }
     }
 }
 android {
